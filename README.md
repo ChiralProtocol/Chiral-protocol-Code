@@ -3,7 +3,7 @@ Chiral Protocol code is open source and made available to  everybody to verify t
 
 CPF applies a 4% tax on every sell transaction,  0% tax on every buy transaction, and 2% on other transaction. 1% of the fee is distributed among holders, 1% sent to liquidity providers,
  1% sent to limitless blackhole (burn addresses), 
-and 1% locked in the smart contract.
+and 1% locked in the smart contract. (The tax fees can be manipulated through governance).
 
 Chiral Protocol is an advanced elastic supply rebase token with a deflationary mechanism, it combines rebase token mechanism
 with frictionless yield, deflationary (burn) and inflation mechanism to reward holders.
