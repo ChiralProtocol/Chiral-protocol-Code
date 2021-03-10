@@ -382,15 +382,15 @@ contract CPF is Ownable, Rebasable
 
     uint256 initSupply = 5 * 10**4 * 10**9;
     uint256 _totalSupply = 5 * 10**4 * 10**9;
-    uint16 public SELL_FEE = 3;
+    uint16 public SELL_FEE = 2;
     uint16 public TX_FEE = 0;
     uint16 public BURN_TOP = 1;
-	uint16 public BURN_BOTTOM = 3;
+	uint16 public BURN_BOTTOM = 2;
 	uint256 private _tFeeTotal;
 	uint256 private constant MAX = ~uint256(0);
     uint256 private _rTotal = (MAX - (MAX % _totalSupply));
-	uint16 public FYFee = 100;
-	uint256 public _maxTxAmount = 500 * 10**9;
+	uint16 public FYFee = 50;
+	uint256 public _maxTxAmount = 500 * 10**11;
 	uint256 public _minTokensBeforeSwap = 100 * 10**9;
 	uint256 public _autoSwapCallerFee = 2 * 10**9;
 	uint256 public liquidityRewardRate = 2;
